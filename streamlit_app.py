@@ -17,8 +17,8 @@ pages = {
         st.Page(page2(), title="Page 2")
     ],
     "Resources" : [
-        st.Page("resource1", title="Resource 1"),
-        st.Page("resource2", title="Resource 2")
+        st.Page(resource1(), title="Resource 1"),
+        st.Page(resource2(), title="Resource 2")
     ]
 }
 
