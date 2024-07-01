@@ -13,8 +13,8 @@ def resource2():
     
 pages = {
     "Main" : [
-        st.Page("page1", title="Page 1"),
-        st.Page("page2", title="Page 2")
+        st.Page(page1, title="Page 1"),
+        st.Page(page2, title="Page 2")
     ],
     "Resources" : [
         st.Page("resource1", title="Resource 1"),
