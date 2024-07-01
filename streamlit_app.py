@@ -2,14 +2,23 @@ import streamlit as st
 
 st.title('🎈 App Name')
 
+def page1():
+    st.write("Page 1")
+def page2():
+    st.write("Page 2")
+def resource1():
+    st.write("Resource 1")
+def resource2():
+    st.write("Resource 2")
+    
 pages = {
-    "Your account" : [
-        st.Page("create_account.py", title="Create your account"),
-        st.Page("manage_account.py", title="Manage your account")
+    "Main" : [
+        st.Page("page1", title="Page 1"),
+        st.Page("page2", title="Page 2")
     ],
     "Resources" : [
-        st.Page("learn.py", title="Learn about us"),
-        st.Page("trial.py", title="Try it out")
+        st.Page("resource1", title="Resource 1"),
+        st.Page("resource2", title="Resource 2")
     ]
 }
 
