@@ -13,7 +13,7 @@ pages = {
     "Resources" : [
         st.Page("resources/page1.py", title="Resource 1"),
         st.Page("resources/page2.py", title="Resource 2"),
-        st.Page(resource3, title="Resource 3")
+        st.Page(page3, title="Resource 3")
         
     ]
 }
