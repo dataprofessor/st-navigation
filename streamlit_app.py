@@ -3,7 +3,7 @@ import streamlit as st
 st.title('🎈 App Name')
 
 def resource3():
-    st.write("Resource 3")
+    st.write("This is the **Resources Page 3**.")
     
 pages = {
     "Main" : [
