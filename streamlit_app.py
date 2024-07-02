@@ -14,7 +14,7 @@ def resource2():
 pages = {
     "Main" : [
         st.Page("home.py", title="Home", icon=":material/home:"),
-        st.Page("about.py", title="About")
+        st.Page("about.py", title="About", icon=":material/local_library:")
     ],
     "Resources" : [
         st.Page("resources/page1.py", title="Resource 1"),
