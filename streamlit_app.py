@@ -11,7 +11,7 @@ pages = {
         st.Page("about.py", title="About", icon=":material/local_library:")
     ],
     "Resources" : [
-        st.Page("resources/page1.py", title="Resource 1", icon=":material/looks_1:"),
+        st.Page("resources/page1.py", title="Resource 1", icon=":material/looks_one:"),
         st.Page("resources/page2.py", title="Resource 2", icon=":material/looks_2:"),
         st.Page(page3, title="Resource 3", icon=":material/looks_3:")
     ]
