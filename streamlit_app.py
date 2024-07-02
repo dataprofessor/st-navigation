@@ -13,7 +13,7 @@ def resource2():
     
 pages = {
     "Main" : [
-        st.Page(page1(), title="Page 1"),
+        st.Page("home.py", title="Page 1"),
         st.Page(page2(), title="Page 2")
     ],
     "Resources" : [
