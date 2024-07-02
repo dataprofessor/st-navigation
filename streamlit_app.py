@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.set_page_config(page_title="Ex-stream-ly Cool App", page_icon="🧊")
+
+st.title('🧊 Ex-stream-ly Cool App')
 
 def page3():
     st.write("This is **Resources Page 3**.")
