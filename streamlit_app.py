@@ -15,6 +15,8 @@ def page3():
     st.vega_lite_chart(
        chart_data,
        {
+           "width": "container",
+           "height": 250,
            "mark": {"type": "circle", "tooltip": True},
            "encoding": {
                "x": {"field": "a", "type": "quantitative"},
