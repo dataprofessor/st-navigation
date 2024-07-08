@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write("This is the **Home** page.")
+st.info("Demo page for the `st.navigation()` method.")
