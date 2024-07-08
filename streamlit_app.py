@@ -16,7 +16,6 @@ def page3():
        chart_data,
        {
            "width": "container",
-           "height": 250,
            "mark": {"type": "circle", "tooltip": True},
            "encoding": {
                "x": {"field": "a", "type": "quantitative"},
