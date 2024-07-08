@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.subheader("About")
+
 st.write("""
   Demo examples are from the [Streamlit Documentation](https://docs.streamlit.io/):
     - [st.area_chart](https://docs.streamlit.io/develop/api-reference/charts/st.area_chart)
