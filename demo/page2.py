@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write("**Demo 2**")
+st.subheader("Demo 2")
