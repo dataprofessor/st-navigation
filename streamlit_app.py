@@ -7,7 +7,8 @@ st.title('🧊 Ex-stream-ly Cool App')
 def page3():
     import pandas as pd
     import numpy as np
-    
+
+    st.subheader("Demo 3")
     st.write("Display a chart using the Vega-Lite library via the `st.vega_lite_chart()` method.")
 
     chart_data = pd.DataFrame(np.random.randn(200, 3), columns=["a", "b", "c"])
