@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Ex-stream-ly Cool App", page_icon="🧊")
+st.set_page_config(page_title="st.navigation Demo", page_icon="🗺️")
 
-st.title('🧊 Ex-stream-ly Cool App')
+st.title('🗺️ st.navigation Demo App')
 
 def page3():
     import pandas as pd
