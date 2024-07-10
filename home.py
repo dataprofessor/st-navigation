@@ -7,7 +7,7 @@ st.write("""
 
   In a nutshell, you'll need to:
   - Create an **entrypoint** file (`streamlit_app.py` in this demo) that acts as a router to direct users to specific pages of interest.
-  - This **entrypoint** file makes use of `st.navigation()` to define the page hierarchy in a multi-page app.
+  - This **entrypoint** file makes use of `st.navigation()` to define the page hierarchy in a multi-page app (previously not possible in a multi-page app)
   - Each **page** is defined using `st.Page()` that could either be callable functions or Python `.py` files.
 """)
 
