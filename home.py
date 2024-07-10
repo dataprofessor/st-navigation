@@ -7,10 +7,10 @@ st.write("""
 
   To put it simply, follow these steps:
 
-  1. **Create an entrypoint file** (`streamlit_app.py` in this example). This file will serve as a router, directing users to specific pages of interest.
-  2. **Use `st.navigation()`** in the entrypoint file to define the page hierarchy for a multi-page app. This functionality was previously unavailable in multi-page apps.
-  3. **Define each page** using `st.Page()`. Pages can be callable functions or Python `.py` files.
-  4. **Streamlit runs the entrypoint file** on every app rerun, applying the `.run()` method to the page object returned by `st.navigation()`.
+  1. Create an entrypoint file (`streamlit_app.py` in this example). This file will serve as a router, directing users to specific pages of interest.
+  2. Use `st.navigation()` in the entrypoint file to define the page hierarchy for a multi-page app. This functionality was previously unavailable in multi-page apps.
+  3. Define each page using `st.Page()`. Pages can be callable functions or Python `.py` files.
+  4. Streamlit runs the entrypoint file on every app rerun, applying the `.run()` method to the page object returned by `st.navigation()`.
 
 """)
 
