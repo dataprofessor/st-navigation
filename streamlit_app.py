@@ -32,7 +32,7 @@ pages = {
         st.Page("home.py", title="Home", icon=":material/home:"),
         st.Page("about.py", title="About", icon=":material/local_library:")
     ],
-    "Resources" : [
+    "Demo" : [
         st.Page("demo/page1.py", title="Demo 1", icon=":material/nutrition:"),
         st.Page("demo/page2.py", title="Demo 2", icon=":material/handyman:"),
         st.Page(page3, title="Demo 3", icon=":material/architecture:")
