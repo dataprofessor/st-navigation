@@ -8,4 +8,5 @@ st.write("Display an area chart using the `st.area_chart()` method.")
 
 with st.echo():
   chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+  
   st.area_chart(chart_data)
