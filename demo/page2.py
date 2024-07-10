@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 
-st.subheader("Demo 2")
+st.subheader("st.pydeck_chart")
 
 st.write("Draw a chart using the PyDeck library via the `st.pydeck_chart()` method.")
 
