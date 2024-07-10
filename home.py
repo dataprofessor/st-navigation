@@ -10,3 +10,5 @@ st.write("""
   - This **entrypoint** file makes use of `st.navigation()` to define the hierarchy of **page elements** in the multi-page app.
   - Each **page elements** is defined using `st.Page()` that could either be callable functions or Python `.py` files.
 """)
+
+st.page_link("https://docs.streamlit.io/develop/api-reference/navigation/st.navigation", label="st.navigation", icon="📖")
