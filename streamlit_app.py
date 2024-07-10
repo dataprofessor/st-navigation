@@ -33,7 +33,7 @@ pages = {
         st.Page("about.py", title="About", icon=":material/local_library:")
     ],
     "Chart Demo" : [
-        st.Page("demo/page1.py", title="Demo 1", icon=":material/nutrition:"),
+        st.Page("demo/page1.py", title="st.area_chart", icon=":material/nutrition:"),
         st.Page("demo/page2.py", title="st.pydeck_chart", icon=":material/handyman:"),
         st.Page(page3, title="st.vega_lite_chart", icon=":material/architecture:")
     ]
