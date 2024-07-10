@@ -11,4 +11,4 @@ st.write("""
   - Each **page elements** is defined using `st.Page()` that could either be callable functions or Python `.py` files.
 """)
 
-st.page_link("https://docs.streamlit.io/develop/api-reference/navigation/st.navigation", label="st.navigation", icon="📖")
+st.page_link("https://docs.streamlit.io/develop/api-reference/navigation/st.navigation", label="Streamlit Docs on st.navigation", icon="📖")
