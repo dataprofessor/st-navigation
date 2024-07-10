@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.subheader("Demo 1")
+st.subheader("st.area_chart")
 
 st.write("Display an area chart using the `st.area_chart()` method.")
 
