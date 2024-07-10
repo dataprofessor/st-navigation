@@ -35,7 +35,7 @@ pages = {
     "Chart Demo" : [
         st.Page("demo/page1.py", title="Demo 1", icon=":material/nutrition:"),
         st.Page("demo/page2.py", title="Demo 2", icon=":material/handyman:"),
-        st.Page(page3, title="Demo 3", icon=":material/architecture:")
+        st.Page(page3, title="st.vega_lite_chart", icon=":material/architecture:")
     ]
 }
 
